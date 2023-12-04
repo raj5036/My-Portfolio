@@ -22,9 +22,7 @@ const illustration = {
 const greeting = {
   username: "Raj karmakar",
   title: "Hi all, I'm Raj",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / ExpressJS / NextJS and some other cool libraries and frameworks."
-  ),
+  subTitle: "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / ExpressJS / NextJS and some other cool libraries and frameworks.",
   resumeLink:
     "https://drive.google.com/file/d/1PqZmv1zXKO6RP0943gy_3s36znjADbvS/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -53,7 +51,7 @@ const skillsSection = {
   skills: [
     "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
     "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
-    "⚡ Integration of third party services such as AWS / Digital Ocean"
+    "⚡ Deployment using third party services such as AWS / Digital Ocean / Azure"
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -61,15 +59,15 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "SASS",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
@@ -77,32 +75,48 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "React.JS",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "angular",
+      skillName: "Angular",
       fontAwesomeClassname: "fab fa-angular"
     },
     {
-      skillName: "nodejs",
+      skillName: "Vue.JS",
+      fontAwesomeClassname: "fab fa-vuejs",
+    },
+    {
+      skillName: "Node.JS",
       fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "Core PHP",
+      fontAwesomeClassname: "fab fa-php",
+    },
+    {
+      skillName: "Laravel / Lumen",
+      fontAwesomeClassname: "fab fa-laravel"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -132,11 +146,11 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend(React/Redux)", //Insert stack or technology you have experience in
+      Stack: "Frontend(React / Redux / Angular / Vue)", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend(NodeJS/ExpressJS)",
+      Stack: "Backend(NodeJS / ExpressJS / Laravel / Lumen)",
       progressPercentage: "90%"
     },
     {
@@ -161,10 +175,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Full Stack Engineer",
+      company: "Ymir Labs Startup Studio",
+      companylogo: require("./assets/images/Ymir_Labs_logo.jpeg"),
+      date: "February 2023 – Present",
+     // desc: "Worked on multiple micro-services i.e, Kommunicate-server, Kommunicate-omni-channel, Kommunicate-bot-server etc. and developed multiple features to enhance the product overall",
+      descBullets: [
+        "Spearheaded the development of an entire Interior decoration application where Interior designers, Customers & partners can interact and build projects together (Prop-tech).",
+        "Created robust onboarding process for new users for Frontbase, which is a design system that is used internally across Ymir teams. Also added important component to enhance the product further.",
+        "Collaborated across teams to optimize system architecture & maintain cohesive feature integration.",
+        "Consistently met aggressive project deadlines while maintaining pro-active, solution oriented mindset.",
+        "Worked with various frontend & backend technologies such as Next.Js, React.Js, Vue.Js, Angular.Js, Node.Js, Express.Js, Laravel, Lumen etc. "
+      ],
+      // backgroundColor: "red"
+    },
+    {
       role: "SDE-1",
       company: "Kommunicate",
       companylogo: require("./assets/images/komm_logo_2.png"),
-      date: "October 2021 – Present",
+      date: "October 2021 – February 2023",
      // desc: "Worked on multiple micro-services i.e, Kommunicate-server, Kommunicate-omni-channel, Kommunicate-bot-server etc. and developed multiple features to enhance the product overall",
       descBullets: [
         "Added feature for integrating Zendesk-Sunshine with Kommunicate and developed end-to-end messaging flow",
@@ -188,18 +217,18 @@ const workExperiences = {
       // backgroundColor: "red",
       companyTitleColor: "black"
     },
-    {
-      role: "Backend Engineer Intern",
-      company: "Webingo Infotech Solutions",
-      companylogo: require("./assets/images/webingo.png"),
-      date: "Jan 2020 – March 2020",
-     // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      // backgroundColor: "red",
-      descBullets: [
-        "Worked on creating rich and interactive backend supported webapps for the clients, that uses PHP and MySQL as server and DB. The goal was to provide optimal user experiences across all user levels (Admin/Premium users/Normal Users).",
-        "Developed a paginated members’ list with support for member management (promote/demote/remove) and server-side search to find and manage people in large groups (For a Fintech Company)."
-      ],
-    }
+    // {
+    //   role: "Backend Engineer Intern",
+    //   company: "Webingo Infotech Solutions",
+    //   companylogo: require("./assets/images/webingo.png"),
+    //   date: "Jan 2020 – March 2020",
+    //  // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    //   // backgroundColor: "red",
+    //   descBullets: [
+    //     "Worked on creating rich and interactive backend supported webapps for the clients, that uses PHP and MySQL as server and DB. The goal was to provide optimal user experiences across all user levels (Admin/Premium users/Normal Users).",
+    //     "Developed a paginated members’ list with support for member management (promote/demote/remove) and server-side search to find and manage people in large groups (For a Fintech Company)."
+    //   ],
+    // }
   ]
 };
 
@@ -364,7 +393,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact Me ☎️",
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91-8250351900",
