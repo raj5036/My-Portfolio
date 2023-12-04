@@ -24,7 +24,7 @@ const greeting = {
   title: "Hi all, I'm Raj",
   subTitle: "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / ExpressJS / NextJS and some other cool libraries and frameworks.",
   resumeLink:
-    "https://drive.google.com/file/d/1PqZmv1zXKO6RP0943gy_3s36znjADbvS/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1AANnqrtn7KN_pAmy43nHUfO63EokVvWS/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
