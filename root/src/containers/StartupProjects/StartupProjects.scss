@@ -1,8 +1,13 @@
 @import "../../_globalColor";
 
+.intiri-home-decor {
+  height: 225px;
+  width: 100%;
+}
+
 .covid-tracker-image {
   height: 225px;
-  width: 346px
+  width: 100%;
 }
 
 .admin-control-panel-image {
@@ -55,7 +60,7 @@
 }
 .project-image {
   position: relative;
-  height: 250px;
+  // height: 100%;
   overflow: hidden;
   text-align: center;
 }

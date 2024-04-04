@@ -1,3 +1,7 @@
+# Run locally
+
+Use NPM version 16.20.2
+
 # Deployment Steps
 
 1. Make changes locally & test it. 

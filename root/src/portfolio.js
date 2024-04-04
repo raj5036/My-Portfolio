@@ -4,6 +4,7 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import golangIcon from "./assets/images/svgs/golang.svg"
 
 // Splash Screen
 
@@ -118,10 +119,15 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git"
     },
+    // {
+    //   skillName: "Golang",
+    //   fontAwesomeClassname: "fa-brands fa-golang",
+    //   showBySVG: true,
+    //   svg: golangIcon
+    // },
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 // Education Section
 
 const educationInfo = {
@@ -246,6 +252,20 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "",
   projects: [
+    {
+      image: require("./assets/images/Intiri.jpeg"),
+      imageClass: "intiri-home-decor",
+      projectName: "Intiri",
+      projectDesc: `A Home Decoration Platform where Customers can visualize their ideas for decorating their home with required Products, Materials, Color
+      Schemes etc. Also Designers can collaborate with the Users to help them achieve their desired output. And,
+      Customers can hire the designers & pay them - All on this platform`,
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://intiri.no/"
+        }
+      ]
+    },
     {
       image: require("./assets/images/covid19_tracker.jpg"),
       imageClass: "covid-tracker-image",
