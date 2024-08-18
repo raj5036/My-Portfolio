@@ -23,7 +23,9 @@ const illustration = {
 const greeting = {
   username: "Raj karmakar",
   title: "Hi all, I'm Raj",
-  subTitle: "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / ExpressJS / NextJS and some other cool libraries and frameworks.",
+  subTitle: `A passionate Full Stack Software Developer🚀 (2.5+ YOE) having 
+  experience of building Web applications with ReactJs, NodeJs, ExpressJs, NextJs, NestJs
+  and some other cool libraries and frameworks.`,
   resumeLink:
     "https://drive.google.com/file/d/1AANnqrtn7KN_pAmy43nHUfO63EokVvWS/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
