@@ -45,9 +45,17 @@
   text-decoration: none;
 }
 
+.header li .mode-switch {
+  padding: 12px 20px;
+}
+
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: $headerHoverBG;
+}
+
+.head li .mode-switch:hover {
+  background-color: $buttonColor;
 }
 
 .header .logo {
