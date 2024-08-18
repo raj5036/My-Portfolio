@@ -8,24 +8,15 @@ export default function SoftwareSkill() {
       <div className="software-skills-main-div">
         <ul className="dev-icons">
           {skillsSection.softwareSkills.map((skills, i) => 
-            skills.showBySVG ? (
+            (
               <li
-              key={i}
-              className="software-skill-inline"
-              name={skills.skillName}
-            >
-              <img src={skills.svg} alt={skills.skillName} height={20} width={20}/>
-              <p>{skills.skillName}</p>
-            </li>
-            ): (
-              <li
-              key={i}
-              className="software-skill-inline"
-              name={skills.skillName}
-            >
-              <i className={skills.fontAwesomeClassname}></i>
-              <p>{skills.skillName}</p>
-            </li>
+                key={i}
+                className="software-skill-inline"
+                name={skills.skillName}
+              >
+                <i className={skills.fontAwesomeClassname}></i>
+                <p>{skills.skillName}</p>
+              </li>
             )
           )}
         </ul>

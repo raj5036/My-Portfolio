@@ -4,7 +4,6 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-import golangIcon from "./assets/images/svgs/golang.svg"
 
 // Splash Screen
 
@@ -50,7 +49,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "PASSIONATE FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE FULL STACK DEVELOPER WHO WANTS TO BUILD SCALABLE SYSTEMS",
   skills: [
     "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
     "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
@@ -62,24 +61,20 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "HTML-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "CSS",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "SASS",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "React.JS",
+      fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "React.JS",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "HTML-5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "CSS",
+      fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
       skillName: "Angular",
@@ -92,6 +87,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Node.JS",
       fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "Golang",
+      fontAwesomeClassname: "fa-brands fa-golang",
     },
     {
       skillName: "Core PHP",
@@ -121,17 +120,11 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git"
     },
-    // {
-    //   skillName: "Golang",
-    //   fontAwesomeClassname: "fa-brands fa-golang",
-    //   showBySVG: true,
-    //   svg: golangIcon
-    // },
   ],
   display: true // Set false to hide this section, defaults to true
 };
-// Education Section
 
+// Education Section
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
@@ -154,20 +147,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend(React / Redux / Angular / Vue)", //Insert stack or technology you have experience in
+      Stack: "Frontend(React/ Redux/ Angular/ Vue)", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend(NodeJS / ExpressJS / Laravel / Lumen)",
+      Stack: "Backend(NodeJS/ NestJs/ Laravel/ Golang)",
       progressPercentage: "90%"
     },
     {
       Stack: "Git",
-      progressPercentage: "80%"
+      progressPercentage: "100%"
     },
     {
-      Stack: "SQL-Databases",
-      progressPercentage: "100%"
+      Stack: "SQL-Databases (MySQL/ PostgreSQL/ SQL Server)",
+      progressPercentage: "85%"
     },
     {
       Stack: "No-SQL Databases (MongoDB)",
