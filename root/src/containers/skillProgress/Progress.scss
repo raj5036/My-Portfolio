@@ -1,5 +1,41 @@
 @import "../../_globalColor";
 
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  margin-bottom: 30px;
+  padding: 0 24px;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 8px;
+}
+
+.grid-item > img {
+  aspect-ratio: 1 / 1;
+  height: 6rem;
+}
+
+.skill-type {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.skill-list {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
 .meter {
   height: 20px;
   position: relative;
@@ -26,17 +62,7 @@
   font-size: 28px;
   width: 40%;
 }
-.skills-container {
-  display: flex;
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 2rem;
-}
-.skills-container > * {
-  flex: 1;
-  margin-bottom: 30px;
-}
+
 .skills-image > img {
   margin-left: 80px;
   max-width: 90%;
@@ -56,9 +82,6 @@
 }
 
 @media (max-width: 768px) {
-  .skills-container {
-    flex-direction: column;
-  }
   .skills-bar {
     line-height: 3rem;
     margin: 20px;
