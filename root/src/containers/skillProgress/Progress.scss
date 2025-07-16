@@ -1,5 +1,9 @@
 @import "../../_globalColor";
 
+.skills-section {
+  margin: 0 auto;
+}
+
 .skills-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -7,14 +11,13 @@
   grid-auto-rows: 1fr;
   grid-gap: 10px;
   margin-bottom: 30px;
-  padding: 0 24px;
 }
 
 .grid-item {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  gap: 8px;
+  gap: 16px;
   background-color: #fff;
   color: #000;
   border-radius: 8px;
@@ -23,6 +26,11 @@
 .grid-item > img {
   aspect-ratio: 1 / 1;
   height: 6rem;
+  padding-left: 16px;
+}
+
+.skill {
+  padding-right: 16px;
 }
 
 .skill-type {
@@ -33,7 +41,7 @@
 
 .skill-list {
   font-family: "Inter", sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
 }
 
@@ -56,9 +64,7 @@
   position: relative;
   overflow: hidden;
 }
-.skill {
-  line-height: 3.5vw;
-}
+
 .skill-bars {
   font-size: 28px;
   width: 40%;
