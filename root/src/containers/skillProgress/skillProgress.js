@@ -7,11 +7,14 @@ import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import ReactIcon from "../../assets/svgs/ReactIcon.svg"
 import GitIcon from "../../assets/svgs/GitIcon.svg"
 import ServerIcon from "../../assets/svgs/ServerIcon.svg"
+import DatabaseIcon from "../../assets/svgs/DatabaseIcon.svg"
+import CloudIcon from "../../assets/svgs/CloudIcon.svg"
 
 export default function StackProgress() {
   if (techStack.viewSkillBars) {
     return (
       <Fade bottom duration={1000} distance="20px">
+        <h1 className="skills-heading">Proficiency</h1>
         <div className="skills-container">
           <div className="grid-item frontend">
             <img src={ReactIcon} alt="React Icon"/>
@@ -28,10 +31,24 @@ export default function StackProgress() {
             </div>
           </div>
           <div className="grid-item backend">
-            <img src={ServerIcon} alt="Server Icon"/>
+            <img src={ServerIcon} alt="Server Icon" style={{ height: "5rem" }}/>
             <div>
               <p className="skill-type">Backend</p>
-              <p className="skill-list">NodeJs, ExpressJs, Golang, PHP, Laravel</p>
+              <p className="skill-list">NodeJs, ExpressJs, Golang, PHP, Laravel, GraphQL, NestJs</p>
+            </div>
+          </div>
+          <div className="grid-item database">
+            <img src={DatabaseIcon} alt="Database Icon"/>
+            <div>
+              <p className="skill-type">Databases</p>
+              <p className="skill-list">MySQL, MongoDB, Postgres, SQL server</p>
+            </div>
+          </div>
+          <div className="grid-item cloud">
+            <img src={CloudIcon} alt="Cloud Icon"/>
+            <div>
+              <p className="skill-type">Cloud</p>
+              <p className="skill-list">AWS (EC2, S3, RDS), Azure (Virtual Machine, Azure Data Studio)</p>
             </div>
           </div>
         </div>
