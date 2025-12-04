@@ -214,20 +214,20 @@ const workExperiences = {
       ],
       // backgroundColor: "red"
     },
-    // {
-    //   role: "Full-Stack Engineer Intern",
-    //   company: "Awiros",
-    //   companylogo: require("./assets/images/awiros_new_logo.jpg"),
-    //   date: "May 2021 – August 2021",
-    //  // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //   descBullets: [
-    //     "Identified web-based user interactions, developed highly responsive user interface components via React Concepts.",
-    //     "Translated designs and wireframes into high quality code and wrote application interface code via JavaScript following React.JS workflows.",
-    //     "Implemented server-side logic for users to annotate images and search/store/fetch relative data for the corresponding images, classes etc. using NodeJS/ExpressJS and MongoDB."
-    //   ],
-    //   // backgroundColor: "red",
-    //   companyTitleColor: "black"
-    // },
+    {
+      role: "Full-Stack Engineer Intern",
+      company: "Awiros",
+      companylogo: require("./assets/images/awiros_new_logo.jpg"),
+      date: "May'21 – Aug'21",
+     // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        // "Identified web-based user interactions, developed highly responsive user interface components via React Concepts.",
+        // "Translated designs and wireframes into high quality code and wrote application interface code via JavaScript following React.JS workflows.",
+        // "Implemented server-side logic for users to annotate images and search/store/fetch relative data for the corresponding images, classes etc. using NodeJS/ExpressJS and MongoDB."
+      ],
+      // backgroundColor: "red",
+      companyTitleColor: "black"
+    },
     // {
     //   role: "Backend Engineer Intern",
     //   company: "Webingo Infotech Solutions",
