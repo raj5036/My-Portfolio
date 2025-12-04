@@ -176,17 +176,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Senior Full Stack Engineer",
+      company: "RecoStar",
+      companylogo: require("./assets/images/Recostar_logo.png"),
+      date: "Aug'24 - Present",
+      descBullets: [
+        "Built the core platform (MERN + AWS) with 500+ influencers and 10K+ monthly affiliate link clicks",
+        "Reduced API latency via Redis caching and query batching; enabled zero-downtime Docker deployments",
+        "Automated weekly analytics and CRON-based earnings reports with real-time dashboards",
+        "Integrated Cuelinks API for affiliate link tracking and Instagram Business Webhooks for auto onboarding."
+      ]
+    },
+    {
       role: "Full Stack Engineer",
       company: "Ymir Labs Startup Studio",
       companylogo: require("./assets/images/Ymir_Labs_logo.jpeg"),
-      date: "February 2023 – Present",
-     // desc: "Worked on multiple micro-services i.e, Kommunicate-server, Kommunicate-omni-channel, Kommunicate-bot-server etc. and developed multiple features to enhance the product overall",
+      date: "Feb'23 – Aug'24",
       descBullets: [
-        "Spearheaded the development of an entire Interior decoration application where Interior designers, Customers & partners can interact and build projects together (Prop-tech).",
-        "Created robust onboarding process for new users for Frontbase, which is a design system that is used internally across Ymir teams. Also added important component to enhance the product further.",
-        "Collaborated across teams to optimize system architecture & maintain cohesive feature integration.",
-        "Consistently met aggressive project deadlines while maintaining pro-active, solution oriented mindset.",
-        "Worked with various frontend & backend technologies such as Next.Js, React.Js, Vue.Js, Angular.Js, Node.Js, Express.Js, Laravel, Lumen etc. "
+        "Built a full interior-design collaboration platform enabling designers, customers, and partners to manage projects together (Prop-tech).",
+        "Worked cross-functionally to optimize system architecture and ensure smooth feature integration.",
+        "Delivered features under aggressive deadlines with a proactive, solution-driven approach.",
+        "Worked across multiple frontend and backend technologies, including Next.js, React.js, Vue.js, Angular.js, Node.js, Express.js, Laravel, and Lumen.",
       ],
       // backgroundColor: "red"
     },
@@ -194,7 +204,7 @@ const workExperiences = {
       role: "SDE-1",
       company: "Kommunicate",
       companylogo: require("./assets/images/komm_logo_2.png"),
-      date: "October 2021 – February 2023",
+      date: "Oct'21 – Feb'23",
      // desc: "Worked on multiple micro-services i.e, Kommunicate-server, Kommunicate-omni-channel, Kommunicate-bot-server etc. and developed multiple features to enhance the product overall",
       descBullets: [
         "Added feature for integrating Zendesk-Sunshine with Kommunicate and developed end-to-end messaging flow",
@@ -204,20 +214,20 @@ const workExperiences = {
       ],
       // backgroundColor: "red"
     },
-    {
-      role: "Full-Stack Engineer Intern",
-      company: "Awiros",
-      companylogo: require("./assets/images/awiros_new_logo.jpg"),
-      date: "May 2021 – August 2021",
-     // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Identified web-based user interactions, developed highly responsive user interface components via React Concepts.",
-        "Translated designs and wireframes into high quality code and wrote application interface code via JavaScript following React.JS workflows.",
-        "Implemented server-side logic for users to annotate images and search/store/fetch relative data for the corresponding images, classes etc. using NodeJS/ExpressJS and MongoDB."
-      ],
-      // backgroundColor: "red",
-      companyTitleColor: "black"
-    },
+    // {
+    //   role: "Full-Stack Engineer Intern",
+    //   company: "Awiros",
+    //   companylogo: require("./assets/images/awiros_new_logo.jpg"),
+    //   date: "May 2021 – August 2021",
+    //  // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    //   descBullets: [
+    //     "Identified web-based user interactions, developed highly responsive user interface components via React Concepts.",
+    //     "Translated designs and wireframes into high quality code and wrote application interface code via JavaScript following React.JS workflows.",
+    //     "Implemented server-side logic for users to annotate images and search/store/fetch relative data for the corresponding images, classes etc. using NodeJS/ExpressJS and MongoDB."
+    //   ],
+    //   // backgroundColor: "red",
+    //   companyTitleColor: "black"
+    // },
     // {
     //   role: "Backend Engineer Intern",
     //   company: "Webingo Infotech Solutions",
