@@ -22,11 +22,11 @@ const illustration = {
 const greeting = {
   username: "Raj karmakar",
   title: "Hi all, I'm Raj",
-  subTitle: `A passionate Full Stack Software Developer🚀 (2.5+ YOE) having 
-  experience of building Web applications with ReactJs, NodeJs, ExpressJs, NextJs, NestJs
+  subTitle: `A passionate Full Stack Engineer🚀 (4+ YOE) having 
+  experience of building Web applications with React, Next, Node, Express, Golang
   and some other cool libraries and frameworks.`,
   resumeLink:
-    "https://drive.google.com/file/d/1BJrDQYn4_Roiy9HjUMdOcvieCUyDGPE-/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1nT0gBp47cFnt4Jj5xdv1X6Y_BcM4YZHi/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
