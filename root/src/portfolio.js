@@ -181,10 +181,10 @@ const workExperiences = {
       companylogo: require("./assets/images/Recostar_logo.png"),
       date: "Aug'24 - Present",
       descBullets: [
-        "Built the core platform (MERN + AWS) with 500+ influencers and 10K+ monthly affiliate link clicks",
-        "Reduced API latency via Redis caching and query batching; enabled zero-downtime Docker deployments",
-        "Automated weekly analytics and CRON-based earnings reports with real-time dashboards",
-        "Integrated Cuelinks API for affiliate link tracking and Instagram Business Webhooks for auto onboarding."
+        // "Built the core platform (MERN + AWS) with 500+ influencers and 10K+ monthly affiliate link clicks",
+        // "Reduced API latency via Redis caching and query batching; enabled zero-downtime Docker deployments",
+        // "Automated weekly analytics and CRON-based earnings reports with real-time dashboards",
+        // "Integrated Cuelinks API for affiliate link tracking and Instagram Business Webhooks for auto onboarding."
       ]
     },
     {
@@ -193,10 +193,10 @@ const workExperiences = {
       companylogo: require("./assets/images/Ymir_Labs_logo.jpeg"),
       date: "Feb'23 – Aug'24",
       descBullets: [
-        "Built a full interior-design collaboration platform enabling designers, customers, and partners to manage projects together (Prop-tech).",
-        "Worked cross-functionally to optimize system architecture and ensure smooth feature integration.",
-        "Delivered features under aggressive deadlines with a proactive, solution-driven approach.",
-        "Worked across multiple frontend and backend technologies, including Next.js, React.js, Vue.js, Angular.js, Node.js, Express.js, Laravel, and Lumen.",
+        // "Built a full interior-design collaboration platform enabling designers, customers, and partners to manage projects together (Prop-tech).",
+        // "Worked cross-functionally to optimize system architecture and ensure smooth feature integration.",
+        // "Delivered features under aggressive deadlines with a proactive, solution-driven approach.",
+        // "Worked across multiple frontend and backend technologies, including Next.js, React.js, Vue.js, Angular.js, Node.js, Express.js, Laravel, and Lumen.",
       ],
       // backgroundColor: "red"
     },
@@ -207,10 +207,10 @@ const workExperiences = {
       date: "Oct'21 – Feb'23",
      // desc: "Worked on multiple micro-services i.e, Kommunicate-server, Kommunicate-omni-channel, Kommunicate-bot-server etc. and developed multiple features to enhance the product overall",
       descBullets: [
-        "Added feature for integrating Zendesk-Sunshine with Kommunicate and developed end-to-end messaging flow",
-        "Created OTT Finder bot, that gives links to the shows/movies asked for. Other than Kommunicate’s Chat-SDK, it works on WhatsApp too.",
-        "Added and modified UI components using React.JS, redux and CSS/Styled-components.",
-        "Debugging existing feature bugs, co-ordinate with Product and QA team in feature lifecycle."
+        // "Added feature for integrating Zendesk-Sunshine with Kommunicate and developed end-to-end messaging flow",
+        // "Created OTT Finder bot, that gives links to the shows/movies asked for. Other than Kommunicate’s Chat-SDK, it works on WhatsApp too.",
+        // "Added and modified UI components using React.JS, redux and CSS/Styled-components.",
+        // "Debugging existing feature bugs, co-ordinate with Product and QA team in feature lifecycle."
       ],
       // backgroundColor: "red"
     },
